@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+</head>
+<style>
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ecf9ff;
+}
+
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(103, 10, 67, 0.2);
+  background-color:rgb(141, 12, 42) ;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+</style>
+<body>
+  <div class="main">
+    <h1>Personal & Professional Projects</h1>
+    <ul class="cards">
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://raw.githubusercontent.com/Vishakha401/Portfolio/main/Machine_Learning.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Trail to Machine Learning</h2>
+            <p class="card_text">Embarking on the trail to machine learning involves grasping fundamental concepts such as data preprocessing, model selection, and evaluation metrics. Through hands-on demos, beginners can explore basic algorithms like linear regression, classification, and decision trees. </p>
+            <a href="https://github.com/Vishakha401/Machin-Learning-Labs"><button class="btn card_btn">Live Project</button></a>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://raw.githubusercontent.com/Vishakha401/Portfolio/main/DBMS.png"></div>
+          <div class="card_content">
+            <h2 class="card_title">Database Management</h2>
+            <p class="card_text">A learning path in database management typically involves understanding foundational concepts such as database design, normalization, and Entity-Relationship (ER) diagrams. Mastery in ER diagrams enables efficient visualization and representation of the relationships between entities in a database schema, facilitating effective database design and management. </p>
+            <a href="https://github.com/Vishakha401/Database-Management"><button class="btn card_btn">Live Project</button></a>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://raw.githubusercontent.com/Vishakha401/Portfolio/main/featured-aws-cloud.png"></div>
+          <div class="card_content">
+            <h2 class="card_title">AWS EC2</h2>
+            <p class="card_text">Exploring AWS EC2 entails mastering essential concepts like instance provisioning, security group configurations, and elastic scaling. Through practical demonstrations, beginners can navigate basic tasks such as launching virtual servers, configuring networking, and understanding key EC2 features. This hands-on experience provides a solid foundation for delving deeper into AWS's extensive cloud computing services.t</p>
+            <a href="https://github.com/Vishakha401/AWS-EC2"><button class="btn card_btn">Live Project</button></a>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://raw.githubusercontent.com/Vishakha401/Portfolio/main/Data_analysis_hero.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Business-Analytics-Aggregate-Planning-at-Green-Mills-
+            </h2>
+            <p class="card_text">Examined Chase, Level, and Optimal production strategies to optimize operations amid market fluctuations, involving production adjustment and stable workforce management with overtime. Integrated controllable variables for cost-effective decision-making.</p>
+            <a href="https://github.com/Vishakha401/Business-Analytics-Aggregate-Planning-at-Green-Mills-"><button class="btn card_btn">Live Project</button></a>
+
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://raw.githubusercontent.com/Vishakha401/Portfolio/main/Data_analysis_hero.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Exploratory data analysis of cryptocurrencies
+              using SQL</h2>
+            <p class="card_text">An SQL project on exploring different data points on Cryptocurrencies.
+              Implemented an ETL pipeline to extract, transform and load data from various sources using their respective APIs into a central database using SQL server, enabling efficient and accurate data analysis. Performed complex SQL queries to generate insights on various factors that affect the price of a particular crypto.</p>
+            <a href="https://github.com/Vishakha401/Exploratory-data-analysis-of-cryptocurrencies-using-SQL."><button class="btn card_btn">Live Project</button></a>
+          </div>
+        </div>
+      </li>
+      
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://raw.githubusercontent.com/Vishakha401/Portfolio/main/Data_analysis_hero.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Exploratory data analysis of data analyst professionals survey
+              using PowerBi</h2>
+            <p class="card_text">A PowerBI project on exploring different data points on Data Analyst Professionals Survey.
+              Cleaned and transformed data using power query and created a dashboard to show the result of analysis.</p>
+              <a href=""><button class="btn card_btn">Live Project</button></a>
+            </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://raw.githubusercontent.com/Vishakha401/Portfolio/main/Data_analysis_hero.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Bike_Sales_Data_Analysis </h2>
+            <p class="card_text">A small analysis project on Bike_Sales data. Here I used pivot tables in Excel to create a Dashboard</p>
+            <a href="https://github.com/Vishakha401/Bike_Sales_Data_Analysis"><button class="btn card_btn">Live Project</button></a>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://raw.githubusercontent.com/Vishakha401/Portfolio/main/Data_analysis_hero.jpg"></div>
+          <div class="card_content">
+            <h2 class="card_title">Store Inventory Management System</h2>
+            <p class="card_text"> Designed and implemented Store Inventory Management System using MySQL providing CRUD capabilities to the end user
+              ● Used concepts like Normalization, Joins, and Aggregate functions to design the system
+              ● Created a Business Requirement Document and Technical Design Document</p>
+            <a href="https://github.com/Vishakha401/app"><button class="btn card_btn">Live Project</button></a>
+          </div>
+        </div>
+      </li>
+      <li class="cards_item">
+        <div class="card">
+          <div class="card_image"><img src="https://picsum.photos/500/300/?image=17"></div>
+          <div class="card_content">
+            <h2 class="card_title">Business Case Studies : Information System</h2>
+            <p class="card_text"> Business case studies in information systems exemplify how organizations leverage technology to address challenges and optimize operations. </p>
+            <a href="https://github.com/Vishakha401?tab=repositories"><button class="btn card_btn">Live Project</button></a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+
+</body>
+</html>
